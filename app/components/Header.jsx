@@ -57,6 +57,7 @@ export default function Header() {
             alt="PRIME Logo Icon"
             width={28}
             height={28}
+            priority
             className="object-contain md:w-[32px] md:h-[32px]"
           />
           <h2 className="text-xl md:text-2xl m-0 leading-none">PRIME</h2>
