@@ -40,7 +40,7 @@ export default function Header() {
       {/* Left Sidebar Block */}
       <div className="w-[70px] md:w-[90px] bg-black flex items-center justify-center shrink-0 transition-all duration-300">
         <Image
-          src="/images/general/header-logo.png"
+          src="/images/general/header-logo.jpg"
           alt="Atlas logo"
           width={55}
           height={55}
