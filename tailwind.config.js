@@ -12,6 +12,8 @@ module.exports = {
         accent: "#DF8083",
         surface: "#F5F5F5",
         textbody: "#6D6E71",
+        "gray-text": "#454545",
+        "dark-gray": "#203C4C",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],

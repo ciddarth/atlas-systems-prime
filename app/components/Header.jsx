@@ -60,7 +60,7 @@ export default function Header() {
             priority
             className="object-contain md:w-[32px] md:h-[32px]"
           />
-          <h2 className="text-xl md:text-2xl m-0 leading-none">PRIME</h2>
+          <h2 className="text-xl md:text-2xl m-0 leading-none text-dark-gray">PRIME</h2>
         </a>
 
         {/* Desktop Nav */}
@@ -222,9 +222,9 @@ export default function Header() {
                 <circle cx="8.5" cy="8.5" r="5.75" stroke="currentColor" strokeWidth="1.6" />
                 <path d="M13 13l3.5 3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
               </svg>
-              <input 
-                type="text" 
-                placeholder="Search..." 
+              <input
+                type="text"
+                placeholder="Search..."
                 className="w-full bg-transparent border-none focus:outline-none text-[15px] font-sans text-black"
               />
             </div>

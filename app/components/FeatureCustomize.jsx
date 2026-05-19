@@ -16,7 +16,7 @@ export default function FeatureCustomize() {
               className="object-contain"
             />
             <h2 className="">
-              <span className="text-5xl text-darkgray">PRIME </span>Generates
+              <span className="text-5xl text-dark-gray">PRIME </span>Generates
             </h2>
           </div>
           <h2 className="text-black tracking-tight mb-4">

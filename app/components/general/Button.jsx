@@ -2,7 +2,7 @@ export default function Button({ children, href = "#demo", className = "", ...pr
   return (
     <a
       href={href}
-      className={`inline-flex items-center gap-2 px-8 py-3.5 bg-primary text-white text-[16px] font-medium rounded-md transition-all hover:bg-[#7a0d11] hover:-translate-y-0.5 shadow-[0_4px_16px_rgba(150,17,22,0.25)] hover:shadow-[0_8px_24px_rgba(150,17,22,0.35)] whitespace-nowrap ${className}`}
+      className={`inline-flex items-center gap-2 px-8 py-3.5 bg-primary text-white text-[16px] font-medium rounded-md transition-all hover:bg-[#7a0d11] hover:-translate-y-0.5  hover:shadow-[0_8px_24px_rgba(150,17,22,0.35)] whitespace-nowrap ${className}`}
       {...props}
     >
       {children}

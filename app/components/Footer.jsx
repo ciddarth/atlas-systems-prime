@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-16">
 
           {/* Solutions */}
           <div className="col-span-1">
@@ -196,7 +196,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 flex flex-col gap-6">
 
             {/* Sales */}
-            <div>
+            <div className="pb-1">
               <h4 className="text-primary font-medium tracking-wider mb-3">
                 Sales
               </h4>
@@ -206,7 +206,7 @@ export default function Footer() {
             </div>
 
             {/* Careers */}
-            <div>
+            <div className="pb-1">
               <h4 className="text-primary font-medium tracking-wider mb-3">
                 Careers
               </h4>
@@ -216,7 +216,7 @@ export default function Footer() {
             </div>
 
             {/* Support */}
-            <div>
+            <div className="pb-1">
               <h4 className="text-primary font-medium tracking-wider mb-3">
                 Support
               </h4>
@@ -229,7 +229,7 @@ export default function Footer() {
             </div>
 
             {/* Media */}
-            <div>
+            <div className="pb-1">
               <h4 className="text-primary font-medium tracking-wider mb-3">
                 Media
               </h4>
